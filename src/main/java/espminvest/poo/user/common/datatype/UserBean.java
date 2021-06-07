@@ -1,15 +1,11 @@
 package espminvest.poo.user.common.datatype;
 
 public class UserBean {
-    private String id;
+    private static int id;
     private String name;
 
-    public String getId() {
+    public int getId() {
         return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
     }
 
     public String getName() {
